@@ -31,6 +31,8 @@ Due to limitations to USB ports. Only these USB ports are enabled:
   * 20703A1 Bluetooth Controller (on BCM943602CS, replacing M.2 NIC)
   * AURA Controller
 
+![Back USB Port](https://user-images.githubusercontent.com/6648210/104071772-ce759c00-5244-11eb-8775-3e70366394fb.png)
+
 > I modded my Phanteks Enthoo Evolv Shift (PH-ES217E) for front panel with USB-A, USB-C, audio ports. See [my post](https://elethom.me/en/2020/case-mod-phanteks-217e) for more info.
 
 ### GPU
