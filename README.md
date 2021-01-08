@@ -39,6 +39,8 @@ Due to limitations to USB ports. Only these USB ports are enabled:
 
 This config works with my build by disabling unsupported discrete GPU. If you use a discrete GPU, change it accordingly.
 
+> DRM does not work with iGPU. I plan to wait a few months for macOS to support RDNA 2.
+
 ## Appendix
 
 ### ACPI
