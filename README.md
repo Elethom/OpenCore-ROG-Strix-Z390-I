@@ -7,7 +7,7 @@ This config has been fully tested with OpenCore 0.6.4 on the following build:
 * Intel Core i7-8086K
 * G.SKILL 3200C16 16 GB * 2
 * Samsung 970 EVO 512 GB
-* AMD RX 6800 XT (disabled)
+* ~AMD RX 6800 XT~ (disabled)
 * Broadcom BCM943602CS
 
 ## How To Use
