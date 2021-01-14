@@ -21,17 +21,20 @@ Pour these files into your OpenCore installation and add your own SMBIOS setting
 Due to limitations to USB ports. Only these USB ports are enabled:
 
 * Back
-  * 1 USB 3.1 Gen 2
+  * [02,05,06] 1 USB 3.1 Gen 1 Type-C
+  * [04] 1 USB 3.1 Gen 2 Type-A
 * Front
-  * USB-A
-  * USB-C
+  * [01, 02] 1 USB 3.1 Gen 2 Type-C (U31G2_C1 Type-E connector)
+  * [10] 1 USB 3.1 Gen 1 Type-A (U31G1_910 20-1 pin connector)
 * Onboard
-  * USB 2.0 (for AIO in my case)
+  * [12] USB 2.0 (for AIO in my case)
 * Other
-  * 20703A1 Bluetooth Controller (on BCM943602CS, replacing M.2 NIC)
-  * AURA Controller
+  * [13] AURA Controller
+  * [14] 20703A1 Bluetooth Controller (on BCM943602CS, replacing M.2 NIC)
 
-![Back USB Port](https://user-images.githubusercontent.com/6648210/104071772-ce759c00-5244-11eb-8775-3e70366394fb.png)
+![Back USB Port](https://user-images.githubusercontent.com/6648210/104654365-ec387a80-56f6-11eb-8cf8-f10bc64b1f44.png)
+
+> Complaints regarding the choice of USB ports will be ignored because I don't give a fuck. Go change them yourself if you don't like it. Good day, sir.
 
 > I modded my Phanteks Enthoo Evolv Shift (PH-ES217E) for front panel with USB-A, USB-C, audio ports. See [my post](https://elethom.me/en/2020/case-mod-phanteks-217e) for more info.
 
